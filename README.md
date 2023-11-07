@@ -59,7 +59,6 @@ The deep learning model architecture is based on CRNN:
 
 The model is trained using the CTC loss. The training process involves:
 
-- Splitting data into training and validation sets
 - Training the model on the training set
 - Evaluating the model on the validation set
 
@@ -72,12 +71,6 @@ Model performance is evaluated using character-level accuracy on a test dataset:
 - Calculating character-level accuracy
 
 ## Usage
-
-You can use this code to:
-
-- Train your own CRNN model for handwriting recognition
-- Evaluate the model on your own test dataset
-- Make predictions on handwritten text images
 
 To predict the text in a specific image, use the provided `predict` function by specifying the image's index.
 
